@@ -1,0 +1,43 @@
+body, html {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+.parallax {
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg1 {
+  background-image: url('https://media.discordapp.net/attachments/633842454964994056/1384115517182181396/roll-safe-meme-1.png?ex=68514186&is=684ff006&hm=ee6e73f40c84bf99367c9defdc04133a535b258e076f9d4628367bc6326b5407&=&format=webp&quality=lossless');
+}
+
+.bg2 {
+  background-image: url('https://media.discordapp.net/attachments/633842454964994056/1384115552418791454/813kqvYoRfL.png?ex=6851418f&is=684ff00f&hm=0397c5f0475308e77086db9897e2b0dfee5606f1693c310485a3b23958384473&=&format=webp&quality=lossless&width=350&height=350');
+}
+
+.text {
+  color: white;
+  font-size: 2em;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.block {
+  background-color: black;
+  color: white;
+  padding: 200px 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
